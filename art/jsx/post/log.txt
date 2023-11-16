@@ -1,0 +1,8 @@
+Publishing TPS: 14:21:31
+
+Got path ~/Dropbox/Projects/pixel-tile/art/tps/main.tps
+
+Processing /Users/maker/Dropbox/Projects/pixel-tile/art/tps/main.tps...
+Resulting sprite sheet is 128x128
+Writing sprite sheet to /Users/maker/Dropbox/Projects/pixel-tile/pxl/public/img/main.png
+Writing /Users/maker/Dropbox/Projects/pixel-tile/pxl/public/img/main.json

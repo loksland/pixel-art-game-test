@@ -1,0 +1,12 @@
+ {
+  "basePath": "./output/",
+  "relativePath": "%psdBase%.psd",
+  "wipeRelativePath": "%psdBase%.psd",
+  "spritesheet": "main",
+  "cropToBounds": true,
+  "ext" : "png",
+  "pre": "layers-to-comps",
+  "makeDir": 0,
+  "forceGrid": "18",
+  "post": "publish_spritesheet"
+}

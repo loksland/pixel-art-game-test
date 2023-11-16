@@ -1,0 +1,218 @@
+{ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "chunksize":
+        {
+         "height":14,
+         "width":16
+        }
+    },
+ "height":14,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 57, 57, 57, 57, 0, 0,
+            0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 43, 0, 0, 0, 57, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":14,
+         "id":5,
+         "name":"bg",
+         "opacity":0.44,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[55, 0, 0, 47, 47, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            55, 0, 0, 44, 45, 46, 0, 0, 0, 0, 0, 48, 0, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 45, 46, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 55, 0,
+            55, 0, 0, 0, 0, 0, 56, 0, 0, 0, 50, 50, 50, 50, 0, 0,
+            55, 0, 0, 52, 53, 53, 53, 54, 0, 0, 0, 0, 0, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 0, 0, 0, 0, 0,
+            55, 0, 0, 0, 0, 0, 0, 0, 0, 42, 42, 42, 42, 42, 42, 42,
+            55, 0, 0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            53, 53, 53, 53, 53, 53, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62,
+            61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61, 61],
+         "height":14,
+         "id":1,
+         "name":"fg",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":16,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":6,
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tiledversion":"1.10.2",
+ "tileheight":18,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"tileset",
+         "spacing":0,
+         "tilecount":21,
+         "tileheight":40,
+         "tiles":[
+                {
+                 "id":41,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/block.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":42,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/cactus.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":43,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/cloud_left.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":44,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/cloud_mid.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":45,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/cloud_right.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":46,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/coin.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":47,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/diamond.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":48,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/dirt_fill_a.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":49,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/dirt.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":50,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/door.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":51,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/grass_left.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":52,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/grass_mid.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":53,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/grass_right.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":54,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/iron_block.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":55,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/key.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":56,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/mushroom.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                },
+            
+                {
+                 "id":57,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/player_0.png",
+                 "imageheight":40,
+                 "imagewidth":20
+                }, 
+                {
+                 "id":58,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/player_1.png",
+                 "imageheight":40,
+                 "imagewidth":20
+                }, 
+                {
+                 "id":59,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/sign.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":60,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/water_fill.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }, 
+                {
+                 "id":61,
+                 "image":"..\/..\/..\/art\/output\/tiles.psd\/water_top.png",
+                 "imageheight":18,
+                 "imagewidth":18
+                }],
+         "tilewidth":20
+        }],
+ "tilewidth":18,
+ "type":"map",
+ "version":"1.10",
+ "width":16
+}
