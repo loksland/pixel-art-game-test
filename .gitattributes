@@ -1,0 +1,2 @@
+# Fix syntax highlighting for devcontainer files
+*.tps -linguist-vendored
