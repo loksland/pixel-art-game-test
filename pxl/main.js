@@ -73,10 +73,10 @@ let sheet
 async function loadLevel() {
   
   if (!sheet){
-    sheet = await PIXI.Assets.load('/img/main.json');
+    sheet = await PIXI.Assets.load(`${import.meta.env.BASE_URL}img/main.json`);
   }
 
-  const response = await fetch('/maps/level1.json');
+  const response = await fetch(`${import.meta.env.BASE_URL}maps/level1.json`);
   const tilemap = await response.json();
 
   let mapIdToTxLookup = {}
