@@ -1,13 +1,14 @@
 # Pixel art game: WebGL rendering test with PixiJS
 
-This test renders tilemap art and animations while locking the render to whole pixels.   
+This non-interactive test renders tilemap art and animations while locking the render to whole pixels.   
 The result avoids some common pixel art rendering artifacts like shimmering, tearing and blurring.
+
+[View demo](https://loksland.github.io/pixel-art-game-test/)
 
 ![demo render](demorender.png)
 
 ### Summary
-The PixiJS WebGL canvas is rendered at pixel dimensions then scaled up in whole values to be contained within the window viewport.  
-The internal pixel dimensions of the scene remain constant.
+The PixiJS WebGL canvas is rendered at pixel dimensions then scaled up in whole values to be contained within the window viewport. The internal pixel dimensions of the scene remain constant.
 
 The WebGL canvas element `imageRendering` property is set to `pixelated` which will scale using a nearest neighbor algorithm. This will prevent any bluring of the pixels as the whole canvas is scaled.
 ```js
