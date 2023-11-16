@@ -1,6 +1,8 @@
 # Pixel art game: WebGL rendering test with PixiJS
 
-This non-interactive test renders tilemap art and animations while locking the render to whole pixels.   
+**Whole Pixel Lock**
+
+This non-interactive test renders tilemap art and animations while  **locking the render to whole pixels**.   
 The result avoids some common pixel art rendering artifacts like shimmering, tearing and blurring.
 
 [View demo](https://loksland.github.io/pixel-art-game-test/)
@@ -25,8 +27,8 @@ Enabling `ROUND_PIXELS` will floor position values when PixiJS performs renderin
 PIXI.settings.ROUND_PIXELS = true;
 ```
 
-The optional `PIXEL_SCALE` property will render more pixels than needed so that when the PixiJS renderer rounds display object positions they animate more smoothly. A value of 2 will render each pixel as 2x2.  
-Setting to a value over 1 limits the scale factors available to the canvas.
+The internal `PIXEL_SCALE` property will render more pixels than needed so that when the PixiJS renderer rounds display object positions they animate more smoothly. A value of 2 will render each pixel as 2x2.  
+The down side to a value over 1 is that it limits the available responsive sizes of the canvas.
 ```js
 const PIXEL_SCALE = 1;
 ```
