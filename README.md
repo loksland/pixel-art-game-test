@@ -1,7 +1,5 @@
 # Pixel art game: WebGL rendering test with PixiJS
 
-**Whole Pixel Lock**
-
 This non-interactive test renders tilemap art and animations while  **locking the render to whole pixels**.   
 The result avoids some common pixel art rendering artifacts like shimmering, tearing and blurring.
 
