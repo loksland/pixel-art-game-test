@@ -15,7 +15,7 @@ The WebGL canvas element `imageRendering` property is set to `pixelated` which w
 app.view.style.imageRendering = 'pixelated';
 ```
 
-The PixiJS base texture scale mode is set to nearest neighbour, which will prevent any blurring when scaling individual sprites.
+The Pixi sprite sheet texture source scale mode is set to nearest neighbour, which will prevent any blurring when scaling individual sprites.
 ```js
 sheet = (await Assets.load(`img/main.json`)) as Spritesheet;
 sheet.textureSource.scaleMode = 'nearest';
