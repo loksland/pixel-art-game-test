@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="18" tileheight="18" infinite="0" nextlayerid="6" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="18" tileheight="18" infinite="0" nextlayerid="6" nextobjectid="1">
  <editorsettings>
   <chunksize width="16" height="14"/>
-  <export target="../pxl/public/maps/level1.json" format="json"/>
+  <export target="../www/public/maps/level1.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" source="std-tileset.tsx"/>
  <layer id="5" name="bg" width="16" height="14" opacity="0.44">
   <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,44,45,46,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,60,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,57,57,57,57,0,0,
 0,0,0,0,43,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -25,7 +25,7 @@
  </layer>
  <layer id="1" name="fg" width="16" height="14">
   <data encoding="csv">
-55,0,0,47,47,47,0,0,0,0,0,0,0,0,0,0,
+55,0,0,47,47,47,0,0,0,44,45,46,0,0,0,0,
 55,0,0,44,45,46,0,0,0,0,0,48,0,0,0,0,
 55,0,0,0,0,0,0,0,0,0,44,45,46,0,0,0,
 55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

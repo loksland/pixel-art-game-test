@@ -17,25 +17,22 @@ app.view.style.imageRendering = 'pixelated';
 
 The PixiJS base texture scale mode is set to nearest neighbour, which will prevent any blurring when scaling individual sprites.
 ```js
-PIXI.BaseTexture.defaultOptions.scaleMode = PIXI.SCALE_MODES.NEAREST;
+sheet = (await Assets.load(`img/main.json`)) as Spritesheet;
+sheet.textureSource.scaleMode = 'nearest';
 ```
 
-Enabling `ROUND_PIXELS` will floor position values when PixiJS performs rendering, so display objects always are rendered on whole pixels. 
+Enabling round pixels will floor position values when PixiJS performs rendering, so display objects always are rendered on whole pixels. 
 ```js
-PIXI.settings.ROUND_PIXELS = true;
+    await app.init({     
+      roundPixels: true, // If true PixiJS will Math.floor() x/y values when rendering, stopping pixel interpolation. Advantages can include sharper image quality (like text) and faster rendering on canvas. The main disadvantage is movement of objects 
+      // ...    
+    });
 ```
 
 The internal `PIXEL_SCALE` property will render more pixels than needed so that when the PixiJS renderer rounds display object positions they animate more smoothly. A value of 2 will render each pixel as 2x2.  
 The down side to a value over 1 is that it limits the available responsive sizes of the canvas.
 ```js
 const PIXEL_SCALE = 1;
-```
-
-### Running locally
-
-```bash
-cd path/to/pxl/
-npm run dev
 ```
 
 ### Libraries
