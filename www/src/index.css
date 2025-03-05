@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@layer base {
+  body,
+  html {
+    @apply min-h-[100dvh];
+    /* @apply relative; */
+    @apply bg-[#111];
+  }
+
+  #root {
+    @apply flex;
+    @apply flex-col;
+    @apply min-h-[100dvh];
+    @apply relative;
+  }
+}
