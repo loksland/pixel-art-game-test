@@ -23,10 +23,10 @@ sheet.textureSource.scaleMode = 'nearest';
 
 Enabling round pixels will floor position values when PixiJS performs rendering, so display objects always are rendered on whole pixels. 
 ```js
-    await app.init({     
-      roundPixels: true, // If true PixiJS will Math.floor() x/y values when rendering, stopping pixel interpolation. Advantages can include sharper image quality (like text) and faster rendering on canvas. The main disadvantage is movement of objects 
-      // ...    
-    });
+await app.init({     
+  roundPixels: true, // If true PixiJS will Math.floor() x/y values when rendering, stopping pixel interpolation. Advantages can include sharper image quality (like text) and faster rendering on canvas. The main disadvantage is movement of objects 
+  // ...    
+});
 ```
 
 The internal `PIXEL_SCALE` property will render more pixels than needed so that when the PixiJS renderer rounds display object positions they animate more smoothly. A value of 2 will render each pixel as 2x2.  
